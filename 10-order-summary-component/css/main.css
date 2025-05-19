@@ -1,0 +1,111 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--pale-blue);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight500);
+  color: var(--dark-blue);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 2rem;
+  width: 32.7rem;
+  height: 56.8rem;
+  box-shadow: 0 1.5rem 3rem 1rem hsla(224, 23%, 55%, 0.1);
+}
+.card__img {
+  border-radius: 2rem 2rem 0 0;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.5rem 2.4rem;
+}
+.card__title {
+  font-size: 2.2rem;
+  font-weight: var(--font-weight900);
+}
+.card__description {
+  text-align: center;
+  margin-top: 1.8rem;
+  width: 94%;
+  line-height: 156%;
+  letter-spacing: -0.01em;
+  color: var(--desaturated-blue);
+}
+.card__plan {
+  width: 100%;
+  background-color: var(--very-pale-blue);
+  border-radius: 1rem;
+  display: flex;
+  margin-top: 2.3rem;
+  padding: 1.7rem 1.6rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__left {
+  display: flex;
+  gap: 1.9rem;
+}
+.card__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+.card__plan-name {
+  font-weight: var(--font-weight900);
+  font-size: 1.44rem;
+  margin-top: 0.4em;
+}
+.card__plan-price {
+  color: var(--desaturated-blue);
+  font-size: 1.5rem;
+}
+.card__change {
+  color: var(--bright-blue);
+  text-decoration: underline;
+  font-weight: var(--font-weight900);
+  font-size: 1.3rem;
+  margin-top: 0.3em;
+  transition: opacity 0.3s ease-in-out;
+}
+.card__change:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+.card__procced {
+  margin-top: 2.3rem;
+  background-color: var(--bright-blue);
+  width: 100%;
+  border-radius: 1.1rem;
+  padding: 1.6rem 2rem;
+  color: white;
+  font-weight: var(--font-weight700);
+  box-shadow: 0 1.5rem 3rem 1rem hsla(224, 23%, 55%, 0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+.card__procced:hover {
+  opacity: 0.7;
+}
+.card__cancel {
+  color: var(--desaturated-blue);
+  font-weight: var(--font-weight900);
+  margin-top: 2.5rem;
+  font-size: 1.54rem;
+  transition: color 0.3s ease-in-out;
+}
+.card__cancel:hover {
+  color: var(--dark-blue);
+}

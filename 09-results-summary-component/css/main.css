@@ -23,7 +23,7 @@ main {
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 15px 30px 10px hsla(234, 85%, 45%, 0.05);
+  box-shadow: 0 1.5rem 3rem 1rem hsla(234, 85%, 45%, 0.05);
 }
 
 .results__header {

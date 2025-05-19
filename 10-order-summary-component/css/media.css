@@ -1,0 +1,43 @@
+@media (min-width: 460px) {
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .card {
+    width: 45rem;
+    height: 69.7rem;
+  }
+  .card__content {
+    padding: 4.8rem 4.8rem;
+  }
+  .card__title {
+    font-size: 2.8rem;
+  }
+  .card__description {
+    font-size: 1.67rem;
+  }
+  .card__plan {
+    padding: 2.3rem 2.4rem;
+  }
+  .card__wrap {
+    gap: 0.8rem;
+  }
+  .card__plan-name {
+    font-size: 1.6rem;
+    margin-top: 0.1em;
+  }
+  .card__plan-price {
+    font-size: 1.7rem;
+  }
+  .card__change {
+    font-size: 1.4rem;
+    margin-top: 0;
+  }
+  .card__procced {
+    margin-top: 3.4rem;
+  }
+  .card__cancel {
+    margin-top: 3.3rem;
+  }
+}
