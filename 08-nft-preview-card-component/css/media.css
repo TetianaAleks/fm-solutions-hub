@@ -1,0 +1,33 @@
+@media (min-width: 480px) {
+  .card {
+    width: 35rem;
+    height: 59.6rem;
+  }
+  .card__title {
+    margin-top: 2.6rem;
+  }
+  .card__description {
+    margin-top: 1.7rem;
+    font-size: 1.8rem;
+    line-height: 140%;
+  }
+  .card__prices {
+    margin-top: 2.5rem;
+  }
+  .card__left {
+    gap: 0.6rem;
+  }
+  .card__price,
+  .card__time {
+    font-size: 1.7rem;
+  }
+  .card__right {
+    gap: 0.5rem;
+  }
+  hr {
+    margin-top: 2.5rem;
+  }
+  .card__name {
+    font-size: 1.64rem;
+  }
+}

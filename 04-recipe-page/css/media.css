@@ -1,0 +1,92 @@
+@media (max-width: 740px) {
+  main {
+    display: block;
+    height: auto;
+  }
+  .recipe {
+    width: 100%;
+    padding: 0;
+    border-radius: 0%;
+    height: auto;
+    padding-bottom: 3rem;
+  }
+
+  .recipe__img {
+    border-radius: 0%;
+    height: 17.1rem;
+    width: 100%;
+  }
+
+  h1,
+  .recipe__description,
+  .preparation,
+  hr,
+  .ingredients,
+  .instructions,
+  .nutrition {
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+    line-height: 100%;
+    margin-top: 4rem;
+  }
+  .recipe__description {
+    margin-top: 2.4rem;
+    line-height: 150%;
+  }
+  .preparation {
+    margin-top: 3.2rem;
+    padding-left: 2.4rem;
+    padding-top: 2.3rem;
+  }
+
+  .preparation__list,
+  .ingredients__list,
+  .instructions__list {
+    gap: 0.8rem;
+    padding-top: 1.4rem;
+  }
+  .preparation__item,
+  .ingredients__item,
+  .instructions__item {
+    line-height: 150%;
+  }
+  .preparation__item::before,
+  .ingredients__item::before {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .ingredients {
+    margin-top: 2.8rem;
+  }
+  .ingredients__list {
+    padding-top: 2.1rem;
+  }
+
+  .instructions__list {
+    padding-top: 2.1rem;
+  }
+
+  .nutrition {
+    margin-top: 3rem;
+  }
+
+  .nutrition__description {
+    margin-top: 2.2rem;
+    line-height: 150%;
+  }
+
+  .nutrition__table-label {
+    width: 12.2rem;
+  }
+  .nutrition__table td {
+    padding-top: 1.66rem;
+  }
+  .nutrition__table-label {
+    width: 13rem;
+  }
+}
