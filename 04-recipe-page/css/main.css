@@ -49,7 +49,7 @@ h1 {
 
   margin-top: 3.2rem;
 }
-h3 {
+.preparation__title {
   color: var(--rose800);
   font-size: 1.96rem;
 }
@@ -82,7 +82,9 @@ h3 {
   margin-top: 3.3rem;
 }
 
-h2 {
+.ingredients__title,
+.instructions__title,
+.nutrition__title {
   font-family: var(--font-family-young);
   font-size: 2.8rem;
   font-weight: var(--font-weight400);
