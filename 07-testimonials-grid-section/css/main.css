@@ -1,0 +1,125 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--grey100);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight500);
+  color: var(--white);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials {
+  margin: 7.3rem;
+  margin-bottom: 7.3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3.2rem;
+}
+
+.card {
+  width: 30.5rem;
+  border-radius: 0.8rem;
+  padding: 3.2rem 3.2rem;
+}
+.card__header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  position: relative;
+}
+.card__img-quote {
+  display: none;
+}
+.card__img {
+  border-radius: 50%;
+  gap: 0.3rem;
+  width: 3rem;
+  border: 0.2em solid transparent;
+}
+.card__author {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.card__verified {
+  font-size: 1.08rem;
+  font-weight: var(--font-weight500);
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  margin-top: 1.8rem;
+  position: relative;
+}
+.card__title {
+  font-size: 2rem;
+  line-height: 119%;
+  font-weight: var(--font-weigh600);
+}
+.card__quote {
+  margin: 0;
+  line-height: 137%;
+  font-weight: var(--font-weigh500);
+}
+
+.card--purple {
+  background-color: var(--purple500);
+}
+.card--purple .card__img {
+  border-color: var(--purple300);
+}
+.card--purple .card__verified,
+.card--purple .card__quote {
+  color: var(--purple50);
+}
+
+.card--grey {
+  background-color: var(--grey500);
+}
+.card--grey .card__verified {
+  color: var(--grey200);
+}
+.card--grey .card__content {
+  margin-top: 1.6rem;
+}
+
+.card--white {
+  background-color: var(--white);
+  color: var(--grey500);
+}
+.card--white .card__content {
+  margin-top: 1.4rem;
+}
+.card--white .card__verified,
+.card--white .card__quote {
+  color: var(--grey400);
+}
+
+.card--dark-blue {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+.card--dark-blue .card__img {
+  border-color: var(--purple500);
+}
+.card--dark-blue .card__content {
+  margin-top: 1.7rem;
+}
+
+.card--last .card__verified {
+  color: var(--grey200);
+}
+.card--last .card__content {
+  margin-top: 1.6rem;
+}
+.card--last .card__quote {
+  line-height: 138%;
+}

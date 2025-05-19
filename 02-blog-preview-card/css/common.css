@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("../assets/fonts/static/Figtree-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("../assets/fonts/static/Figtree-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --white: hsl(0, 0%, 100%);
+  --yellow: hsl(47, 88%, 63%);
+  --gray500: hsl(0, 0%, 42%);
+  --gray900: hsl(0, 0%, 7%);
+
+  --font-family: "Figtree", sans-serif;
+  --font-size: 16px;
+  --font-weight500: 500;
+  --font-weight800: 800;
+}
