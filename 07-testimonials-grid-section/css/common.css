@@ -3,6 +3,8 @@
 :root {
   --white: hsl(0, 0%, 100%);
 
+  --background-color: hsl(210, 46%, 95%);
+
   --purple50: hsl(260, 100%, 95%);
   --purple300: hsl(264, 82%, 80%);
   --purple500: hsl(263, 55%, 52%);
