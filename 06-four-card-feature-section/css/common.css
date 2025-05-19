@@ -5,6 +5,7 @@
 
   --grey500: hsl(234, 12%, 34%);
   --grey400: hsl(212, 6%, 44%);
+  --background-color: hsl(0, 0%, 98%);
 
   --red: hsl(0, 78%, 62%);
   --cyan: hsl(180, 62%, 55%);

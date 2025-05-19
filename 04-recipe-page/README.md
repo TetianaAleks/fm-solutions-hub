@@ -4,8 +4,8 @@
 
 ## Links
 
-- [Solution URL on GitHub]()
-- [Live Site on GitHub Pages]()
+- [Solution URL on GitHub](https://github.com/TetianaAleks/fm-solutions-hub/tree/main/04-recipe-page)
+- [Live Site on GitHub Pages](https://tetianaaleks.github.io/fm-solutions-hub/04-recipe-page/)
 - [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/recipe-page-semantic-html-css-custom-properties-and-accessible-tables-xk02taac2w) 
 
 ## Built with
