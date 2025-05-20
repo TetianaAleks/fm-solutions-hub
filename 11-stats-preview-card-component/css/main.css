@@ -1,0 +1,93 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family-inter);
+  background-color: var(--very-dark-blue);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight400);
+  color: var(--slightly-transparent-white-p);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--dark-desaturated-blue);
+  width: 32.7rem;
+  height: 78rem;
+  border-radius: 0.8rem;
+  display: grid;
+  grid-template-rows: 24rem auto;
+}
+
+.card__img {
+  background-image: url("../images/image-header-mobile.jpg");
+  width: 100%;
+  height: 24rem;
+  background-repeat: no-repeat;
+  border-radius: 0.8rem 0.8rem 0 0;
+  background-size: cover;
+}
+.card__wrap {
+  background: var(--bg-violet);
+  height: 100%;
+}
+.card__overlay {
+  background: var(--bg-light-violet);
+  height: 100%;
+  mix-blend-mode: color-burn;
+}
+
+.card__content {
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card__title {
+  text-align: center;
+  color: var(--white);
+  font-size: 2.8rem;
+  font-weight: var(--font-weight700);
+}
+.card__title strong {
+  color: var(--soft-violet);
+}
+.card__description {
+  text-align: center;
+  color: var(--slightly-transparent-white-h);
+  line-height: 166%;
+  margin-top: 1.6rem;
+  width: 90%;
+}
+
+.card__stats {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4.1rem;
+  gap: 3rem;
+}
+.card__row {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+.card__number {
+  color: var(--white);
+  font-size: 2.4rem;
+  font-weight: var(--font-weight700);
+}
+.card__name {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  font-weight: var(--font-weight400);
+  color: var(--slightly-transparent-white-h);
+}

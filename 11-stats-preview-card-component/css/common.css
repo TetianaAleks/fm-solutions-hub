@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap");
+
+:root {
+  /*main heading, stats*/
+  --white: hsl(0, 0%, 100%);
+
+  /*main background*/
+  --very-dark-blue: hsl(233, 47%, 7%);
+  /*card background*/
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  /*accent*/
+  --soft-violet: hsl(277, 64%, 61%);
+
+  --bg-violet: hsl(277deg, 100%, 50%, 0.42);
+  --bg-light-violet: hsl(293deg, 42%, 35%, 0.24);
+
+  /*main paragraph*/
+  --slightly-transparent-white-p: hsla(0, 0%, 100%, 0.75);
+  /*stat headings*/
+  --slightly-transparent-white-h: hsla(0, 0%, 100%, 0.6);
+
+  --font-family-inter: "Inter", sans-serif;
+  --font-family-lexend: "Lexend Deca", sans-serif;
+  --font-size: 15px;
+  --font-weight400: 400;
+  --font-weight700: 700;
+}
