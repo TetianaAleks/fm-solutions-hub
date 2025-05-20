@@ -1,0 +1,78 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family-lexend);
+  background-color: var(--very-light-gray);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight400);
+  color: var(--transparent-white);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin: 8.8rem 0;
+}
+.card {
+  width: 32.7rem;
+  padding: 4.8rem 4.9rem;
+  height: 44.2rem;
+}
+.card--orange {
+  background-color: var(--bright-orange);
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+.card--cyan {
+  background-color: var(--dark-cyan);
+}
+.card--dark-cyan {
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 0 0.8rem 0.8rem;
+}
+.card__title {
+  font-family: var(--font-family-big);
+  text-transform: uppercase;
+  color: var(--very-light-gray);
+  margin-top: 3.6rem;
+  font-size: 4rem;
+  font-weight: var(--font-weight700);
+}
+.card__description {
+  margin-top: 2.7rem;
+  line-height: 166%;
+}
+.card__button {
+  background-color: var(--very-light-gray);
+  border-radius: 3rem;
+  padding: 1.36rem 2.9rem;
+  margin-top: 2.4rem;
+  border: 0.16em solid var(--very-light-gray);
+  transition: background-color 0.3s ease-in-out;
+}
+.card--orange .card__button {
+  color: var(--bright-orange);
+}
+.card--cyan .card__button {
+  color: var(--dark-cyan);
+}
+.card--dark-cyan .card__button {
+  color: var(--very-dark-cyan);
+}
+.card__button:hover {
+  color: var(--very-light-gray);
+}
+.card--orange .card__button:hover {
+  background-color: var(--bright-orange);
+}
+.card--cyan .card__button:hover {
+  background-color: var(--dark-cyan);
+}
+.card--dark-cyan .card__button:hover {
+  background-color: var(--very-dark-cyan);
+}
