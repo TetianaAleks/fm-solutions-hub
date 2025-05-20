@@ -18,7 +18,7 @@ main {
 }
 
 .results {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-color: var(--white);
   display: flex;
@@ -28,7 +28,7 @@ main {
 
 .results__header {
   background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
-  height: 35.6rem;
+  min-height: 35.6rem;
   border-radius: 0 0 3.2rem 3.2rem;
   display: flex;
   flex-direction: column;
@@ -41,8 +41,8 @@ main {
 .results__wrap {
   background: linear-gradient(var(--violet-blue), var(--persian-blue));
   border-radius: 50%;
-  width: 14rem;
-  height: 14rem;
+  min-width: 14rem;
+  min-height: 14rem;
   margin-top: 2.4rem;
   text-align: center;
 }

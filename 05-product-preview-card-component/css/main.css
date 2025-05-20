@@ -18,8 +18,8 @@ main {
 }
 
 .card {
-  width: 34.3rem;
-  height: 61.1rem;
+  max-width: 34.3rem;
+  min-height: 61.1rem;
   border-radius: 1rem;
   background-color: var(--white);
   display: flex;
@@ -30,7 +30,7 @@ main {
   display: block;
   overflow: hidden;
   width: 100%;
-  height: 24rem;
+  min-height: 24rem;
   border-radius: 1rem 1rem 0 0;
 }
 .card__image img {
@@ -64,6 +64,7 @@ main {
   display: flex;
   gap: 1.8rem;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 2rem;
 }
 .card__price-actual {

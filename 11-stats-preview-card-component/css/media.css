@@ -1,19 +1,10 @@
-@media (min-width: 768px) {
+@media (min-width: 426px) {
   .card {
-    grid-template-columns: 1fr 40%;
-    grid-template-rows: auto;
-    width: 80%;
-    height: 44.6rem;
+    max-width: 70%;
+    min-height: 44.6rem;
   }
   .card__content {
-    justify-content: center;
-  }
-  .card__img {
-    order: 2;
-    height: 44.6rem;
-    width: 100%;
-    border-radius: 0 0.8rem 0.8rem 0;
-    background-image: url("../images/image-header-desktop.jpg");
+    padding: 4.2rem 4.2rem;
   }
   .card__stats {
     flex-direction: row;
@@ -21,15 +12,38 @@
   }
 }
 
+@media (min-width: 768px) {
+  .card {
+    grid-template-columns: 1fr 40%;
+    grid-template-rows: auto;
+    max-width: 82%;
+    min-height: 44.6rem;
+  }
+  .card__content {
+    justify-content: center;
+  }
+  .card__img {
+    order: 2;
+    min-height: 100%;
+    height: auto;
+    width: 100%;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .card__title {
+    font-size: 3.2rem;
+  }
+}
+
 @media (min-width: 1200px) {
   .card {
     grid-template-columns: 1fr 54rem;
-    width: 111rem;
+    max-width: 111rem;
   }
   .card__content {
     order: 1;
     padding: 7.2rem 7.2rem;
     align-items: normal;
+    padding-bottom: 6.2rem;
   }
   .card__title {
     text-align: left;
@@ -44,6 +58,7 @@
     width: 100%;
     margin-top: 7.2rem;
     gap: 6.3rem;
+    justify-content: flex-start;
   }
   .card__row {
     text-align: left;

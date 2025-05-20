@@ -1,8 +1,8 @@
 @media (min-width: 680px) {
   .card {
     flex-direction: row;
-    width: 60rem;
-    height: 45rem;
+    max-width: 60rem;
+    min-height: 45rem;
   }
   .card__image {
     height: 100%;
@@ -13,12 +13,5 @@
     width: 50%;
     justify-content: space-between;
     padding: 3.2rem 3.2rem;
-  }
-}
-
-@media (max-width: 340px) {
-  .card {
-    width: 100%;
-    height: auto;
   }
 }

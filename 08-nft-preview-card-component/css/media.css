@@ -1,7 +1,7 @@
 @media (min-width: 480px) {
   .card {
-    width: 35rem;
-    height: 59.6rem;
+    max-width: 35rem;
+    min-height: 59.6rem;
   }
   .card__title {
     margin-top: 2.6rem;

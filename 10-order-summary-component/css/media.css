@@ -1,12 +1,12 @@
-@media (min-width: 460px) {
+@media (min-width: 560px) {
   body {
     background-image: url("../images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-size: 100%;
   }
   .card {
-    width: 45rem;
-    height: 69.7rem;
+    max-width: 45rem;
+    min-height: 69.7rem;
   }
   .card__content {
     padding: 4.8rem 4.8rem;

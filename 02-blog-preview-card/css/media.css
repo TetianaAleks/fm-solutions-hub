@@ -1,7 +1,7 @@
 @media (max-width: 425px) {
   .card {
     max-width: 32.7rem;
-    max-height: 50.1rem;
+    min-height: 50.1rem;
     padding-bottom: 2.3rem;
   }
   .card__category {

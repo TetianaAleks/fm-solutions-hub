@@ -25,13 +25,15 @@ body {
   border-radius: 2rem;
   align-items: center;
   max-width: 38.4rem;
-  max-height: 61.2rem;
+  min-height: 61.2rem;
+  width: 100%;
   padding: 4rem;
+  transition: 0.3s ease-in-out;
 }
 
 .card__image {
   border-radius: 50%;
-  width: 8.8rem;
+  max-width: 8.8rem;
 }
 
 .card__header {
@@ -53,12 +55,13 @@ body {
 
 .card__description {
   margin-top: 1.9rem;
+  text-align: center;
 }
 
 .card__social-links {
   display: flex;
   flex-direction: column;
-  width: 30.4rem;
+  width: 100%;
   margin-top: 2.6rem;
   gap: 1.55rem;
 }

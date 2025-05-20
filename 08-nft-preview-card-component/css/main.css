@@ -18,9 +18,9 @@ main {
 }
 
 .card {
-  width: 32.7rem;
+  max-width: 32.7rem;
   padding: 2.4rem 2.4rem;
-  height: 54.3rem;
+  min-height: 54.3rem;
   background-color: var(--blue900);
   border-radius: 1.4rem;
   box-shadow: 0 1rem 8rem 0 hsla(0, 0%, 0%, 0.3);

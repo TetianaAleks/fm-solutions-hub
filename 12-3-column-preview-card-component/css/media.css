@@ -10,8 +10,8 @@
     margin: 0;
   }
   .card {
-    width: 30.6rem;
-    height: 44rem;
+    max-width: 30.6rem;
+    min-height: 44rem;
     padding: 4.8rem 4.8rem;
   }
   .card--orange {
@@ -31,13 +31,13 @@
 @media (min-width: 920px) {
   main {
     min-height: 100vh;
-    align-items: normal;
+    align-items: flex-start;
   }
   .cards {
     margin-top: 17.1rem;
   }
   .card {
-    height: 50rem;
+    min-height: 50rem;
   }
   .card--cyan {
     border-radius: 0;

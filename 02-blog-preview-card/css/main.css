@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   max-width: 38.4rem;
-  max-height: 52.2rem;
+  min-height: 52.2rem;
   padding: 2.4rem;
   gap: 2.34rem;
   flex-direction: column;
@@ -29,6 +29,7 @@ body {
   border-radius: 2rem;
   box-shadow: 1rem 1rem var(--gray900);
   border: 0.1rem solid var(--gray900);
+  transition: 0.3s ease-in-out;
 }
 
 .card__image-main {
@@ -79,7 +80,7 @@ body {
 }
 .card__image-author {
   border-radius: 50%;
-  width: 3.2rem;
+  max-width: 3.2rem;
 }
 .card__author {
   font-weight: var(--font-weight800);

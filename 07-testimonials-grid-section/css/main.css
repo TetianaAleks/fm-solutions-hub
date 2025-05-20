@@ -16,15 +16,14 @@ main {
 }
 
 .testimonials {
-  margin: 7.3rem;
-  margin-bottom: 7.3rem;
+  margin: 7.3rem 0;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 3.2rem;
 }
 
 .card {
-  width: 30.5rem;
+  max-width: 30.5rem;
   border-radius: 0.8rem;
   padding: 3.2rem 3.2rem;
 }
@@ -40,7 +39,7 @@ main {
 .card__img {
   border-radius: 50%;
   gap: 0.3rem;
-  width: 3rem;
+  max-width: 3rem;
   border: 0.2em solid transparent;
 }
 .card__author {

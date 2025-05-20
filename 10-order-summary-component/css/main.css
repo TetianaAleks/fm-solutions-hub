@@ -20,9 +20,10 @@ main {
 .card {
   background-color: white;
   border-radius: 2rem;
-  width: 32.7rem;
-  height: 56.8rem;
+  max-width: 32.7rem;
+  min-height: 56.8rem;
   box-shadow: 0 1.5rem 3rem 1rem hsla(224, 23%, 55%, 0.1);
+  transition: 0.3s ease-in-out;
 }
 .card__img {
   border-radius: 2rem 2rem 0 0;

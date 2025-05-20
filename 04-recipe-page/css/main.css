@@ -14,19 +14,21 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 195.5rem;
+  min-height: 195.5rem;
 }
 
 .recipe {
   background-color: var(--white);
   border-radius: 2.2rem;
   padding: 4rem;
-  width: 73.6rem;
-  height: 170.8rem;
+  max-width: 73.6rem;
+  min-height: 170.8rem;
+  padding-bottom: 3rem;
+  transition: 0.3s ease-in-out;
 }
 .recipe__img {
   border-radius: 1.2rem;
-  width: 66rem;
+  max-width: 66rem;
   height: 30rem;
 }
 
@@ -139,7 +141,7 @@ hr {
   padding-top: 1.8rem;
 }
 .nutrition__table-label {
-  width: 30.2rem;
+  max-width: 10rem;
 }
 .nutrition__table-value {
   color: var(--brown800);

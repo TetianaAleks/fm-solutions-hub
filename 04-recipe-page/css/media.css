@@ -2,9 +2,10 @@
   main {
     display: block;
     height: auto;
+    min-height: fit-content;
   }
   .recipe {
-    width: 100%;
+    max-width: 100%;
     padding: 0;
     border-radius: 0%;
     height: auto;
@@ -13,7 +14,8 @@
 
   .recipe__img {
     border-radius: 0%;
-    height: 17.1rem;
+    min-height: 17.1rem;
+    max-width: 100%;
     width: 100%;
   }
 
@@ -81,12 +83,9 @@
   }
 
   .nutrition__table-label {
-    width: 12.2rem;
+    max-width: 8.5rem;
   }
   .nutrition__table td {
     padding-top: 1.66rem;
-  }
-  .nutrition__table-label {
-    width: 13rem;
   }
 }
