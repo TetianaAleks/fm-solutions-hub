@@ -1,0 +1,19 @@
+@media (min-width: 450px) {
+  .card {
+    max-width: 35rem;
+  }
+  .card__city {
+    font-size: 1.4rem;
+  }
+  .card__footer {
+    padding-left: 4.8rem;
+    padding-right: 5.5rem;
+  }
+}
+
+@media (min-width: 920px) {
+  body {
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    background-size: 136vh;
+  }
+}
