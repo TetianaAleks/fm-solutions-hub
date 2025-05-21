@@ -1,0 +1,124 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight400);
+  color: var(--light-grayish-magenta);
+
+  background: url("../images/bg-pattern-top-mobile.svg") left top no-repeat,
+    url("../images/bg-pattern-bottom-mobile.svg") bottom right no-repeat;
+
+  background-color: var(--white);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.social-proof {
+  text-align: center;
+  margin: 8rem auto;
+  max-width: 32.7rem;
+}
+.social-proof__title {
+  color: var(--very-dark-magenta);
+  font-weight: var(--font-weight700);
+  font-size: 3.72rem;
+  line-height: 90%;
+}
+
+.social-proof__description {
+  margin-top: 2.2rem;
+  font-size: 1.75rem;
+  line-height: 140%;
+  color: var(--dark-grayish-magenta);
+  font-weight: var(--font-weight500);
+}
+
+.social-proof__rates {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 4rem;
+}
+.social-proof__item {
+  background-color: var(--light-grayish-magenta);
+  border-radius: 0.4em;
+  padding: 0.9em 2em;
+}
+.social-proof__stars {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+}
+.social-proof__star {
+  width: 1.8rem;
+  height: 1.8rem;
+  background: url("../images/icon-star.svg") no-repeat center/contain;
+  margin-right: 0.25rem;
+}
+.social-proof__rated {
+  color: var(--very-dark-magenta);
+  font-weight: var(--font-weight700);
+  font-size: 1.7rem;
+  margin-top: 1.4rem;
+}
+.social-proof__item:nth-child(1) .social-proof__rated {
+  margin-left: 1rem;
+}
+.social-proof__item:nth-child(3) .social-proof__rated {
+  margin-top: 1.3rem;
+}
+.social-proof__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 4.8rem;
+}
+.card {
+  background-color: var(--very-dark-magenta);
+  border-radius: 0.8rem;
+  padding: 4rem 3rem 3rem 3.2rem;
+}
+.card__header {
+  display: flex;
+  gap: 2.4rem;
+}
+.card__img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+.card__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  align-items: flex-start;
+}
+.card__author {
+  color: var(--white);
+  font-weight: var(--font-weight500);
+  font-size: 1.74rem;
+}
+.card__verified {
+  color: var(--soft-Pink);
+  opacity: 0.8;
+  font-size: 1.7rem;
+}
+.card__content {
+  text-align: left;
+  margin-top: 2.6rem;
+  font-size: 1.64rem;
+  line-height: 135%;
+  font-weight: var(--font-weight500);
+  color: var(--light-grayish-magenta);
+}
+blockquote {
+  margin: 0;
+}

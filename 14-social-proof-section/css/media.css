@@ -1,0 +1,128 @@
+@media (min-width: 640px) {
+  body {
+    background: url("../images/bg-pattern-top-desktop.svg") left top no-repeat,
+      url("../images/bg-pattern-bottom-desktop.svg") bottom right no-repeat;
+  }
+  .social-proof {
+    text-align: left;
+    margin: 8rem auto;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12rem;
+  }
+  .social-proof__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .social-proof__title {
+    font-size: 4.6rem;
+  }
+  .social-proof__description {
+    margin-top: 3rem;
+  }
+  .social-proof__header {
+    width: 46%;
+  }
+  .social-proof__rates {
+    width: 48.7%;
+    margin-top: 0;
+  }
+  .social-proof__stars {
+    margin: 0;
+  }
+  .social-proof__item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1.9rem 3.1rem;
+    padding-bottom: 1.7rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .social-proof__item:nth-child(2) {
+    align-self: center;
+  }
+  .social-proof__item:nth-child(3) {
+    align-self: flex-end;
+  }
+  .social-proof__rated {
+    margin-top: 2rem;
+  }
+
+  .social-proof__cards {
+    flex-direction: row;
+    margin-top: 7rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    max-width: 35rem;
+    padding-bottom: 3.8rem;
+  }
+  .card:nth-child(1) {
+    width: 48%;
+  }
+  .card:nth-child(2) {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1120px) {
+  .social-proof {
+    max-width: 111rem;
+  }
+  .social-proof__title {
+    font-size: 5.2rem;
+  }
+  .social-proof__header {
+    width: 40%;
+  }
+  .social-proof__item {
+    width: 82%;
+    flex-direction: row;
+    text-align: left;
+  }
+  .social-proof__cards {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    min-height: 26.6rem;
+  }
+  .social-proof__rated {
+    margin: 0;
+  }
+  .social-proof__item:nth-child(1) .social-proof__rated {
+    margin-left: 2.6rem;
+  }
+  .social-proof__item:nth-child(2) .social-proof__rated {
+    margin-left: 2.6rem;
+  }
+  .social-proof__item:nth-child(3) {
+    padding-top: 2rem;
+  }
+  .social-proof__item:nth-child(3) .social-proof__rated {
+    margin-top: 0;
+    margin-left: 2.6rem;
+  }
+  .card:nth-child(1) {
+    align-self: flex-start;
+  }
+  .card:nth-child(2) {
+    align-self: center;
+  }
+  .card:nth-child(3) {
+    align-self: flex-end;
+  }
+  .social-proof__rates {
+    margin-top: 2.5rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  main {
+    align-items: center;
+  }
+  .social-proof {
+    margin: 0;
+  }
+}
