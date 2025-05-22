@@ -1,0 +1,117 @@
+@media (min-width: 600px) {
+  .home__wrapper {
+    max-width: 61rem;
+  }
+  .home__header {
+    padding: 6.4rem 0;
+  }
+  .home__container {
+    padding: 5.7rem 0;
+  }
+  .home__content {
+    padding: 12.3rem 0 7rem;
+  }
+  .home__title {
+    font-size: 4.78rem;
+  }
+  .home__subtitle {
+    font-size: 3.2rem;
+  }
+  .home__button {
+    max-width: 40rem;
+    width: 70%;
+  }
+}
+@media (min-width: 850px) {
+  body {
+    background: url("../images/bg-desktop.svg") left top no-repeat;
+    background-color: var(--violet);
+  }
+  .home__wrapper {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    min-height: 100vh;
+  }
+  .home__header {
+    padding: 2.4rem 0;
+  }
+  .home__logo {
+    max-width: 21.5rem;
+    object-fit: cover;
+  }
+  .home__container {
+    padding: 2.9rem 0 2.2rem;
+    display: flex;
+    gap: 5rem;
+  }
+  .home__img {
+    width: 55%;
+  }
+  .home__content {
+    padding: 4.3rem 0;
+    text-align: left;
+    width: 40%;
+  }
+  .home__title {
+    font-size: 2.96rem;
+  }
+  .home__subtitle {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .home__button {
+    max-width: 20rem;
+    width: 39%;
+    margin-top: 2.5rem;
+    padding: 1.8rem 1rem;
+    font-size: 1.8rem;
+  }
+  .home__footer {
+    justify-content: flex-end;
+    margin-right: 1rem;
+    gap: 1.6rem;
+  }
+  .home__media {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media (min-height: 701px) {
+  body {
+    background-size: calc(100vw + 10vh) calc(100vh + 5vw);
+  }
+}
+
+@media (min-width: 1300px) {
+  .home__wrapper {
+    max-width: 130.2rem;
+  }
+  .home__container {
+    padding: 3.2rem 0 2.2rem;
+  }
+  .home__header {
+    padding: 5.4rem 0;
+  }
+  .home__title {
+    font-size: 3.96rem;
+  }
+  .home__subtitle {
+    font-size: 1.8rem;
+  }
+  .home__footer {
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 1500px) {
+  .home__wrapper {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+}
