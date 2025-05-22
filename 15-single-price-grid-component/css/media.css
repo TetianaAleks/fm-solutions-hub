@@ -1,0 +1,57 @@
+@media (min-width: 426px) {
+  .card {
+    max-width: 80%;
+    min-height: 47.4rem;
+  }
+  .block {
+    text-align: center;
+  }
+  .block__price {
+    justify-content: center;
+  }
+  .block__button {
+    width: 80%;
+  }
+}
+
+@media (min-width: 640px) {
+  .card {
+    max-width: 63.5rem;
+  }
+  .card__container {
+    width: 100%;
+    display: flex;
+  }
+  .card__header {
+    padding: 4.1rem 4rem 3.9rem;
+  }
+  .card__title {
+    font-size: 2.35rem;
+  }
+  .card__subtitle {
+    font-size: 1.76rem;
+    margin-top: 2.4rem;
+  }
+  .card__description {
+    font-size: 1.56rem;
+    margin-top: 0.9rem;
+    line-height: 170%;
+  }
+  .block {
+    width: 50%;
+    padding: 4.06rem 4rem 3.9rem;
+    text-align: left;
+  }
+  .block--cyan {
+    border-radius: 0 0 0 0.6rem;
+  }
+  .block--light-cyan {
+    border-radius: 0 0 0.6rem 0;
+  }
+  .block__price {
+    justify-content: flex-start;
+  }
+  .block__button {
+    width: 100%;
+  }
+}
