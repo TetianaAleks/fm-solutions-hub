@@ -1,0 +1,241 @@
+@media (min-width: 600px) {
+  .cards {
+    max-width: 68rem;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.4rem;
+    row-gap: 2.4rem;
+    margin: 4rem auto;
+  }
+
+  .card {
+    padding: 4rem 2.5rem;
+  }
+  .card--purple {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+  }
+  .card--purple2 {
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
+    flex-direction: row;
+  }
+  .card--white2 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+  .card--light-yellow {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+  }
+  .card--yellow2 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+}
+@media (min-width: 900px) {
+  .cards {
+    max-width: 90rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 23rem 20rem 26rem 22rem;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin: 4rem auto;
+  }
+
+  .card__subtitle {
+    font-size: 2.6rem;
+  }
+  .card--yellow,
+  .card--white,
+  .card--light-purple,
+  .card--light-yellow,
+  .card--purple2 {
+    padding: 3rem 2rem;
+  }
+  .card--light-yellow {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+  .card--purple {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+  }
+  .card--light-purple {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+  }
+  .card--purple2 {
+    grid-row: 4 / 5;
+    grid-column: 1 / 3;
+    flex-direction: row;
+  }
+  .card--yellow2 {
+    grid-row: 3 / 5;
+    grid-column: 3 / 4;
+  }
+  .card__schedule {
+    clip-path: inset(0 0 61% 0);
+  }
+  .card__audience {
+    margin: 0.4rem 0;
+    max-width: 14rem;
+  }
+  .card--white2 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+}
+@media (min-width: 1200px) {
+  .cards {
+    max-width: 112rem;
+    grid-template-columns: repeat(4, 25.6rem);
+    grid-template-rows: 32.4rem 5.9rem 15.6rem 24.6rem;
+
+    row-gap: 3.2rem;
+
+    margin-top: 8.3rem;
+    column-gap: 3.2rem;
+  }
+  .card--light-yellow {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    padding: 6.2rem 3.2rem;
+  }
+  .card--light-yellow .card__subtitle {
+    font-size: 3.9rem;
+    letter-spacing: -0.34rem;
+    line-height: 96%;
+  }
+  .card--purple {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    padding: 6rem 3rem;
+  }
+  .card--purple .card__title {
+    font-size: 6.2rem;
+    letter-spacing: -0.3rem;
+    line-height: 96%;
+  }
+  .card--light-purple {
+    grid-column: 4 / 5;
+    grid-row: 1 / 4;
+    padding: 3.4rem 3.2rem;
+  }
+  .card--light-purple .card__subtitle {
+    font-size: 3.4rem;
+    letter-spacing: -0.3rem;
+    line-height: 89%;
+    text-align: left;
+  }
+  .card__posts {
+    max-width: 35.8rem;
+    clip-path: inset(0 37% 0 0);
+    margin: 2rem 0 2.3rem;
+  }
+  .card--light-purple .card__desc {
+    text-align: left;
+  }
+  .card--yellow2 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+    padding: 0.7rem 2.4rem;
+  }
+  .card--yellow2 .card__subtitle {
+    font-size: 3.86rem;
+    letter-spacing: -0.3rem;
+    line-height: 100%;
+  }
+  .card__ai {
+    margin: 4.8rem 0 0;
+  }
+  .card--white {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    padding: 2.3rem;
+  }
+  .card--white .card__subtitle {
+    font-size: 3.4rem;
+    letter-spacing: -0.3rem;
+    line-height: 84%;
+    margin-top: 2rem;
+  }
+  .card__multiple {
+    max-width: 32rem;
+    clip-path: inset(0 27% 0 0);
+  }
+  .card--yellow {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+    padding: 1rem 2.3rem;
+  }
+  .card--yellow .card__subtitle {
+    font-size: 3.4rem;
+    letter-spacing: -0.3rem;
+    line-height: 81%;
+  }
+  .card__schedule {
+    clip-path: inset(0px 0px 39%);
+  }
+  .card--white2 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    padding: 1.4rem 2.4rem;
+  }
+  .card--white2 .card__subtitle {
+    font-size: 6.1rem;
+    letter-spacing: -0.3rem;
+    line-height: 81%;
+  }
+  .card--white2 .card__desc {
+    margin-top: 2rem;
+  }
+  .card__audience {
+    margin: 3.6rem 0 0;
+    max-width: 18rem;
+  }
+  .card--purple2 {
+    grid-column: 3 / 5;
+    grid-row: 4 / 5;
+    flex-direction: row;
+    padding: 2.5rem 2.4rem;
+  }
+  .card--purple2 .card__subtitle {
+    font-size: 4.2rem;
+    letter-spacing: -0.3rem;
+    line-height: 86%;
+    margin-top: 0;
+    text-align: left;
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 1800px) {
+  .cards {
+    max-width: 140rem;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 4rem;
+    row-gap: 4rem;
+    margin: 8rem auto;
+  }
+
+  .card {
+    padding: 5rem 3rem;
+  }
+  .card__title {
+    font-size: 7.2rem;
+  }
+  .card__subtitle {
+    font-size: 4.2rem;
+  }
+  .card__posts {
+    clip-path: inset(0 0 0 0);
+  }
+  .card__schedule {
+    clip-path: inset(0px 0px 59%);
+  }
+  .card__multiple {
+    clip-path: inset(0 0 0 0);
+  }
+  .card__audience {
+    margin: 1.2rem 0 0;
+  }
+}

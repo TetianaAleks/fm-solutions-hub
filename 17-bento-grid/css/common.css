@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/static/DMSans-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/static/DMSans-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/static/DMSans-MediumItalic.ttf");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 7%);
+
+  --purple100: hsl(254, 88%, 90%);
+  --purple500: hsl(256, 67%, 59%);
+
+  --yellow100: hsl(31, 66%, 93%);
+  --yellow500: hsl(39, 100%, 71%);
+
+  --font-family: "DM Sans", sans-serif;
+  --font-size-body: 18px;
+  --font-weight400: 400;
+  --font-weight500: 500;
+}
