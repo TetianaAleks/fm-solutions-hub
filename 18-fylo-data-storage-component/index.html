@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <article class="card card--first">
+          <img src="./images/logo.svg" alt="Logo" class="card__logo" />
+          <ul class="card__items">
+            <li class="card__item">
+              <img
+                src="./images/icon-document.svg"
+                alt="Icon document"
+                class="card__img"
+              />
+            </li>
+            <li class="card__item">
+              <img
+                src="./images/icon-folder.svg"
+                alt="Icon folder"
+                class="card__img"
+              />
+            </li>
+            <li class="card__item">
+              <img
+                src="./images/icon-upload.svg"
+                alt="Icon upload"
+                class="card__img"
+              />
+            </li>
+          </ul>
+        </article>
+        <article class="card card--second">
+          <p class="card__desc">
+            You’ve used <strong class="card--used">815 GB</strong> of your
+            storage
+          </p>
+
+          <div class="card__bottom">
+            <span class="card__number card--left">185</span> GB Left
+          </div>
+          <div class="card__range-wrapper">
+            <input
+              type="range"
+              name="gb"
+              id="card__input"
+              class="card__input"
+              min="0"
+              max="1000"
+              value="815"
+            />
+            <div class="card__labels">
+              <span>0 GB</span>
+              <span>1000 GB</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <script>
+      const input = document.querySelector(".card__input");
+      const usedEl = document.querySelector(".card--used");
+      const leftEl = document.querySelector(".card--left");
+      const max = parseInt(input.max, 10);
+
+      function updateUI() {
+        const used = parseInt(input.value, 10);
+        const left = max - used;
+
+        usedEl.textContent = `${used} GB`;
+        leftEl.textContent = left;
+
+        const percent = (used / max) * 100;
+        input.style.backgroundSize = `${percent}% 100%`;
+      }
+
+      input.addEventListener("input", updateUI);
+      updateUI();
+    </script>
+  </body>
+</html>

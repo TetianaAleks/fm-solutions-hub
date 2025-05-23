@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+:root {
+  --blue200: hsl(243, 100%, 93%);
+  --grayish-blue: hsl(229, 7%, 55%);
+  --blue850: hsl(228, 56%, 26%);
+  --blue950: hsl(229, 57%, 11%);
+
+  /*Gradient*/
+  --gradient1: hsl(6, 100%, 80%);
+  --gradient2: hsl(335, 100%, 65%);
+
+  --fill-percent: 81.5%;
+
+  --font-family: "Raleway", sans-serif;
+  --font-size-body: 14px;
+  --font-weight400: 400;
+  --font-weight700: 700;
+}
