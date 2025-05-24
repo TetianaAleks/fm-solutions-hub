@@ -7,7 +7,7 @@
     justify-content: center;
   }
   .btn {
-    width: 40%;
+    width: 46%;
   }
   .track__blocks,
   .workflow__blocks {
@@ -21,8 +21,10 @@
     max-width: 90%;
     width: 100%;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
   }
   .companies--ibm,
   .companies--microsoft,
@@ -235,6 +237,8 @@
   .companies {
     margin: 2.8rem auto;
     max-width: 111rem;
+    justify-content: space-between;
+    gap: 0;
   }
   .companies--google {
     max-width: 16.5rem;
