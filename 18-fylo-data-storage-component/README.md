@@ -1,4 +1,4 @@
-# Frontend Mentor - Fylo Data Storage component Solution
+# Frontend Mentor - Fylo Data Storage Component Solution
 
 ![Design preview for the Fylo data storage component challenge](./design/preview.png)
 

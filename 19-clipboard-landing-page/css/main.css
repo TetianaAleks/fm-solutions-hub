@@ -1,0 +1,245 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight400);
+  color: var(--grey500);
+  background-color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 14.2rem;
+}
+
+h1 {
+  font-size: 3.08rem;
+  font-weight: var(--font-weight600);
+  color: var(--grey700);
+  line-height: 130%;
+}
+h2 {
+  font-weight: var(--font-weight600);
+  color: var(--grey700);
+  line-height: 124%;
+  font-size: 2.7rem;
+}
+h3 {
+  font-weight: var(--font-weight600);
+  color: var(--grey700);
+  line-height: 124%;
+  font-size: 2.3rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 162%;
+}
+
+.header-wrapper {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 83%;
+}
+
+.btn {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 3rem;
+  padding: 1.8rem 3rem;
+  font-weight: var(--font-weight600);
+  letter-spacing: 0.07rem;
+  transition: opacity 0.3s ease-in-out;
+}
+.btn--green {
+  background-color: var(--green500);
+  box-shadow: 0 0.4rem 0 hsl(171, 66%, 36%);
+}
+.btn--purple {
+  background-color: var(--blue100);
+  box-shadow: 0 0.4rem 0 hsl(233, 100%, 60%);
+}
+.btn:hover {
+  opacity: 0.6;
+}
+/*-------------- header ------------*/
+.header {
+  background-image: url("../images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 12.3rem 0 2rem;
+}
+.header__logo {
+  margin: 0 auto;
+}
+.header__title {
+  margin-top: 6.5rem;
+}
+.header__desc {
+  margin-top: 1.6rem;
+}
+
+.header__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.3rem;
+  margin-top: 4.7rem;
+}
+
+/*-------------- track ------------*/
+.track__desc {
+  margin-top: 1.8rem;
+}
+
+.track__wrap {
+  max-width: 83%;
+  margin: 6.4rem auto 4.5rem;
+}
+.track__img {
+  margin: 0 auto;
+}
+.track__blocks {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6rem;
+  gap: 4.9rem;
+}
+
+.block {
+  width: 100%;
+}
+.block__title {
+  text-align: center;
+}
+.block__desc {
+  text-align: center;
+  margin-top: 1.1rem;
+}
+
+/*-------------- access ------------*/
+.access__desc {
+  margin-top: 1.8rem;
+}
+.access__title {
+  text-transform: capitalize;
+}
+.access__img {
+  max-width: 92%;
+  margin: 6rem auto 0;
+}
+
+/*-------------- workflow ------------*/
+.workflow {
+  margin-top: -4.4rem;
+}
+.workflow__desc {
+  margin-top: 1.2rem;
+}
+.workflow__blocks {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 83%;
+  margin: 9rem auto 0;
+  gap: 6rem;
+}
+
+.block__img {
+  margin: 0 auto 4.2rem;
+}
+.workflow__blocks .block__desc {
+  margin-top: 1.8rem;
+}
+
+/*-------------- companies ------------*/
+.companies {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -1.1rem;
+}
+.companies--google {
+  max-width: 14rem;
+}
+.companies--ibm {
+  max-width: 11.6rem;
+  margin-top: 6.5rem;
+}
+.companies--microsoft {
+  max-width: 13rem;
+  margin-top: 7rem;
+}
+.companies--hp {
+  max-width: 11.4rem;
+  margin-top: 6.4rem;
+}
+.companies--vector-graphics {
+  max-width: 10.4rem;
+  margin-top: 5.6rem;
+}
+
+/*-------------- clipboard ------------*/
+.clipboard {
+  margin: 3rem 0 16.9rem;
+}
+.clipboard__desc {
+  margin-top: 1.7rem;
+}
+.clipboard__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.3rem;
+  margin-top: 4.6rem;
+}
+/*-------------- footer ------------*/
+.footer {
+  background-color: hsla(201, 11%, 66%, 0.1);
+  padding-top: 5.2rem;
+}
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__logo {
+  max-width: 5.4rem;
+}
+.footer__items {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2.94rem;
+}
+.footer__link {
+  color: var(--grey700);
+  transition: color 0.3s ease-in-out;
+}
+.footer__link:hover,
+.footer__link:focus {
+  color: var(--green500);
+}
+.footer__link svg {
+  color: var(--grey700);
+  transition: color 0.3s ease;
+}
+.footer__link:hover svg,
+.footer__link:focus svg {
+  color: var(--green500);
+}
+
+.footer__wrap-links {
+  margin-top: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.9rem;
+}
+
+.footer__links {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 5.2rem;
+  margin-bottom: 5.2rem;
+}

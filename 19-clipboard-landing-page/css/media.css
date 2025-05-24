@@ -1,0 +1,347 @@
+@media (min-width: 600px) {
+  .header {
+    background-image: url("../images/bg-header-desktop.png");
+  }
+  .header__buttons,
+  .clipboard__buttons {
+    justify-content: center;
+  }
+  .btn {
+    width: 40%;
+  }
+  .track__blocks,
+  .workflow__blocks {
+    justify-content: center;
+  }
+  .block {
+    width: 40%;
+  }
+  .companies {
+    flex-direction: row;
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .companies--ibm,
+  .companies--microsoft,
+  .companies--hp,
+  .companies--vector-graphics {
+    margin-top: 0;
+  }
+
+  .footer {
+    padding-top: 0;
+    min-height: 15rem;
+  }
+  .footer__wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+  .footer__logo {
+    margin-top: 3rem;
+  }
+
+  .footer__links {
+    gap: 2.4rem;
+    margin: 0;
+    float: right;
+    max-width: 25%;
+    justify-content: flex-end;
+    margin-top: 4.7rem;
+    width: 100%;
+  }
+
+  .footer__wrap-links {
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 4.5rem;
+    margin-left: 10%;
+    flex-direction: row;
+    gap: 0;
+  }
+  .footer__items {
+    text-align: left;
+    margin: 0;
+    gap: 2.1rem;
+  }
+  .footer__items:nth-child(2) {
+    margin-left: 5rem;
+  }
+  .footer__items:nth-child(3) {
+    margin-left: 3rem;
+  }
+}
+@media (min-width: 900px) {
+  .block {
+    width: 28%;
+  }
+
+  .track__wrap {
+    gap: 10rem;
+  }
+
+  .track__img {
+    max-width: 70rem;
+    transform: none;
+  }
+
+  .workflow__blocks {
+    gap: 7rem;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    padding: 2rem 4rem;
+  }
+
+  h1 {
+    font-size: 3.8rem;
+  }
+
+  h2 {
+    font-size: 3.1rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    gap: 13.2rem;
+  }
+  h1 {
+    font-size: 4.44rem;
+  }
+  h2 {
+    line-height: 124%;
+    font-size: 3.5rem;
+  }
+  p {
+    font-size: 2.04rem;
+    line-height: 150%;
+  }
+  .header-wrapper {
+    max-width: 75rem;
+  }
+
+  .header {
+    background-image: url("../images/bg-header-desktop.png");
+    padding: 13.1rem 0 2rem;
+  }
+  .header__title {
+    margin-top: 5.5rem;
+  }
+  .header__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.3rem;
+    margin-top: 4.7rem;
+  }
+  .btn {
+    max-width: 22.4rem;
+    padding: 1.8rem 3rem;
+    font-size: 1.8rem;
+  }
+
+  .track__desc {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.04rem;
+    line-height: 166%;
+  }
+  .track__wrap {
+    max-width: 118rem;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    margin-top: 7.9rem;
+    gap: 8rem;
+  }
+  .track__img {
+    margin: 0;
+    transform: translateX(-3rem);
+    max-width: 75rem;
+  }
+  .track__blocks {
+    margin-top: 7rem;
+    gap: 5.7rem;
+    justify-content: unset;
+    flex-direction: column;
+  }
+  .block {
+    width: 100%;
+  }
+  .block__title {
+    text-align: left;
+  }
+  .block__desc {
+    text-align: left;
+    margin-top: 0.9rem;
+    font-size: 1.62rem;
+    line-height: 184%;
+  }
+
+  .access {
+    margin-top: 2.2rem;
+  }
+  .access__img {
+    max-width: 90rem;
+    margin: 10rem auto 0;
+  }
+  .access__title {
+    text-transform: none;
+  }
+  .access__desc {
+    font-size: 1.83rem;
+    margin-top: 2rem;
+    line-height: 160%;
+  }
+
+  .workflow {
+    margin-top: -5.6rem;
+  }
+  .workflow__desc {
+    margin-top: 2.1rem;
+    font-size: 1.84rem;
+  }
+  .workflow__blocks {
+    max-width: 111rem;
+    margin: 7.2rem auto 0;
+    flex-wrap: nowrap;
+    gap: 3rem;
+    justify-content: unset;
+  }
+  .block__img {
+    width: 5rem;
+    height: 4rem;
+    object-fit: contain;
+  }
+  .workflow__blocks .block {
+    width: 35rem;
+  }
+
+  .workflow__blocks .block__title {
+    text-align: center;
+  }
+  .workflow__blocks .block__desc {
+    text-align: center;
+  }
+
+  .companies {
+    margin: 2.8rem auto;
+    max-width: 111rem;
+  }
+  .companies--google {
+    max-width: 16.5rem;
+  }
+  .companies--ibm {
+    max-width: 13.6rem;
+  }
+  .companies--microsoft {
+    max-width: 16rem;
+  }
+  .companies--hp {
+    max-width: 12.1rem;
+  }
+  .companies--vector-graphics {
+    max-width: 13rem;
+  }
+
+  .clipboard {
+    margin: 0.2rem 0 15rem;
+  }
+  .clipboard__desc {
+    margin-top: 1.9rem;
+    font-size: 1.9rem;
+    line-height: 160%;
+  }
+  .clipboard__buttons {
+    justify-content: center;
+  }
+  .footer__wrapper {
+    max-width: 111rem;
+  }
+
+  .footer__links {
+    max-width: 43.7rem;
+  }
+  .footer__wrap-links {
+    margin-left: 13.6rem;
+  }
+  .footer__items:nth-child(2) {
+    margin-left: 9.8rem;
+  }
+  .footer__items:nth-child(3) {
+    margin-left: 7.4rem;
+  }
+}
+@media (min-width: 1800px) {
+  html {
+    font-size: 68.75%;
+  }
+
+  .header-wrapper {
+    max-width: 50%;
+  }
+
+  .btn {
+    font-size: 1.8rem;
+    max-width: 28rem;
+    padding: 2.2rem 4.5rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 2.2rem;
+    line-height: 160%;
+  }
+
+  .track__wrap {
+    max-width: 60%;
+    gap: 30rem;
+  }
+
+  .track__img {
+    max-width: 100%;
+  }
+
+  .block {
+    width: 100%;
+  }
+
+  .workflow__blocks {
+    gap: 8rem;
+  }
+
+  .access__img {
+    max-width: 100rem;
+  }
+
+  .footer__wrapper {
+    max-width: 140rem;
+  }
+
+  .footer__logo {
+    max-width: 6.5rem;
+  }
+
+  .footer__items {
+    gap: 3rem;
+  }
+
+  .footer__links {
+    gap: 3rem;
+  }
+}
