@@ -30,7 +30,6 @@ main {
   border-radius: 1rem 1rem 0 0;
   height: 20rem;
   width: 100%;
-  object-fit: cover;
 }
 
 .card__container {
