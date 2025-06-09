@@ -112,15 +112,11 @@ main {
   display: none;
 }
 
-#card {
-  display: none;
-}
-
 .success {
   background-color: var(--white);
   padding: 14.9rem 2.4rem 2rem;
 
-  display: block;
+  display: none;
 }
 .success__title {
   margin-top: 4rem;
