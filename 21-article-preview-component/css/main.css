@@ -1,0 +1,132 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: var(--very-dark-grayish-blue);
+  background-color: var(--light-grayish-blue);
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.card {
+  margin-top: -0.8rem;
+  width: 32.6rem;
+  max-width: 73rem;
+  background-color: white;
+  border-radius: 1rem;
+  position: relative;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+}
+.card__image {
+  border-radius: 1rem 1rem 0 0;
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card__container {
+  padding: 3.6rem 3.2rem 0rem;
+}
+.card__title {
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+}
+.card__desc {
+  margin-top: 1.4rem;
+  color: var(--desaturated-dark-blue);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.card__left {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+.card__author {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.card__name {
+  margin-top: 0.1rem;
+}
+.card__date {
+  margin-top: 0.4rem;
+  color: var(--grayish-blue);
+}
+
+.card__button {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  background-color: var(--light-grayish-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__button:hover {
+  background-color: var(--desaturated-dark-blue);
+}
+.card__button:hover svg path {
+  fill: white;
+}
+.card__button.clicked {
+  background-color: var(--desaturated-dark-blue);
+  z-index: 2;
+}
+#card-svg.clicked path {
+  fill: white;
+}
+
+.card__share {
+  position: absolute;
+  background-color: var(--very-dark-grayish-blue);
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 1rem 1rem;
+  padding: 2.2rem 3rem;
+  width: 100%;
+
+  display: none;
+}
+.card__share-left {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+}
+.card__links {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+.card__left-text {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  color: var(--grayish-blue);
+  font-weight: 500;
+}
+
+.card__link:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.2);
+}
