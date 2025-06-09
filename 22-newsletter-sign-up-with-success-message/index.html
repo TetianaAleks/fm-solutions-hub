@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <article class="card" id="card">
+        <picture class="card__picture">
+          <source
+            srcset="./assets/images/illustration-sign-up-desktop.svg"
+            media="(min-width: 900px)"
+          />
+          <source
+            srcset="./assets/images/illustration-sign-up-tablet.svg"
+            media="(min-width: 600px)"
+          />
+          <img
+            src="./assets/images/illustration-sign-up-mobile.svg"
+            alt="Sign up illustration"
+          />
+        </picture>
+        <div class="card__container">
+          <form action="#" class="card__form" id="form">
+            <h1 class="card__title">Stay updated!</h1>
+            <p class="card__desc">
+              Join 60,000+ product managers receiving monthly updates on:
+            </p>
+            <ul class="card__list">
+              <li class="card__item">
+                Product discovery and building what matters
+              </li>
+              <li class="card__item">
+                Measuring to ensure updates are a success
+              </li>
+              <li class="card__item">And much more!</li>
+            </ul>
+            <div class="card__form-group">
+              <label for="email" class="card__label"
+                >Email address
+                <span id="email__validation">Valid email required</span></label
+              >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="card__input"
+                placeholder="email@company.com"
+                required
+              />
+            </div>
+            <button type="submit" class="card__button">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </div>
+      </article>
+
+      <article class="success" id="success">
+        <img
+          src="./assets/images/icon-success.svg"
+          alt="Icon success"
+          class="success__image"
+        />
+
+        <h1 class="card__title success__title">Thanks for subscribing!</h1>
+        <p class="success__desc">
+          A confirmation email has been sent to
+          <strong id="set-email">ash@loremcompany.com</strong>. Please open it
+          and click the button inside to confirm your subscription.
+        </p>
+        <button type="button" class="card__button success__btn" id="dismiss">
+          Dismiss message
+        </button>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
