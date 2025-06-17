@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="cards">
+        <div class="first-card">
+          <div class="first-card__header">
+            <img
+              src="./images/image-jeremy.png"
+              alt="Image jeremy"
+              class="first-card__img"
+            />
+            <div class="first-card__text">
+              <p class="first-card__report">Report for</p>
+              <h1 class="first-card__title">Jeremy Robson</h1>
+            </div>
+          </div>
+          <ul class="first-card__list">
+            <li class="first-card__item">
+              <a href="#" class="first-card__link">Daily</a>
+            </li>
+            <li class="first-card__item">
+              <a href="#" class="first-card__link active">Weekly</a>
+            </li>
+            <li class="first-card__item">
+              <a href="#" class="first-card__link">Monthly</a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="cards-container" class="cards-wrapper"></div>
+        
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

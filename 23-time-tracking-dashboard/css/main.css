@@ -1,0 +1,186 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: white;
+  background-color: var(--navy950);
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.4rem;
+
+  padding: 8.1rem 0;
+}
+
+.first-card,
+.card {
+  border-radius: 1.6rem;
+  background-color: var(--navy900);
+  width: min(100%, 32.7rem);
+}
+.first-card__header {
+  background-color: var(--purple600);
+  border-radius: 1.6rem;
+  padding: 3.2rem 2.8rem 2.9rem;
+
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+.first-card__img {
+  border-radius: 50%;
+  width: 4em;
+  border: 0.4rem solid white;
+}
+.first-card__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.first-card__report {
+  font-size: 1.5rem;
+  color: var(--navy200);
+  font-weight: 300;
+}
+.first-card__title {
+  font-size: 2.4rem;
+  font-weight: 300;
+  color: var(--navy500);
+}
+
+.first-card__list {
+  display: flex;
+  padding: 2.4rem 2.4rem 2.5rem 3.2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.first-card__item {
+  width: 33%;
+}
+.first-card__item:nth-child(2) {
+  text-align: center;
+}
+.first-card__item:nth-child(3) {
+  text-align: right;
+}
+.first-card__link {
+  color: var(--navy200);
+  font-weight: 300;
+}
+.first-card__link.active,
+.first-card__link:hover {
+  color: white;
+}
+
+.cards-wrapper {
+  display: grid;
+  gap: 2.4rem;
+  width: min(100%, 32.7rem);
+}
+.card {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card__header {
+  min-height: 6rem;
+  border-radius: 1.6rem;
+
+  background-repeat: no-repeat;
+  background-position: right 1.6rem top -1rem;
+}
+.card__container {
+  padding: 2.9rem 2.4rem;
+  border-radius: 1.6rem;
+  margin-top: -2.2rem;
+  background-color: var(--navy900);
+  transition: background-color 0.3s ease;
+}
+.card:hover {
+  background-color: hsl(235, 45%, 30%);
+}
+.card:hover .card__container {
+  background-color: hsl(235, 45%, 30%);
+}
+.card__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__title {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.card__dots {
+  transition: filter 0.2s ease;
+}
+.card__dots:hover {
+  filter: brightness(0) saturate(100%) invert(100%); /* сделает белой */
+}
+.card__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.86rem;
+}
+.card__hours {
+  font-size: 3rem;
+  font-weight: 300;
+}
+.card__previus {
+  font-size: 1.5rem;
+  color: var(--navy200);
+  font-weight: 400;
+}
+
+.card--orange .card__header {
+  background-color: var(--orange300);
+  background-image: url("../images/icon-work.svg");
+}
+.card--blue .card__header {
+  background-color: var(--blue30);
+  background-image: url("../images/icon-play.svg");
+  background-position: right 2.2rem top -0.4rem;
+}
+.card--pink .card__header {
+  background-color: var(--pink400);
+  background-image: url("../images/icon-study.svg");
+  background-position: right 1.6rem top -0.6rem;
+}
+.card--green .card__header {
+  background-color: var(--green400);
+  background-image: url("../images/icon-exercise.svg");
+  background-position: right 1.6rem top 0;
+}
+.card--purple .card__header {
+  background-color: var(--purple700);
+  background-image: url("../images/icon-social.svg");
+  background-position: right 1.2rem top -1.4rem;
+}
+.card--yellow .card__header {
+  background-color: var(--yellow300);
+  background-image: url("../images/icon-self-care.svg");
+}
+
+.card__hours span,
+.card__previus span {
+  display: none;
+}
+
+.card__hours span.active,
+.card__previus span.active {
+  display: inline;
+}

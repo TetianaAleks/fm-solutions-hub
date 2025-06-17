@@ -1,0 +1,113 @@
+@media (min-width: 600px) {
+  main {
+    align-items: center;
+  }
+
+  .cards {
+    padding: 2rem 0;
+
+    gap: 2.9rem;
+
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .cards-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    gap: 1.9rem;
+  }
+
+  .cards-wrapper {
+    width: 26rem;
+  }
+
+  .first-card {
+    align-self: flex-start;
+  }
+
+  .first-card,
+  .card {
+    max-width: 25.6rem;
+  }
+  .card {
+    min-height: 24.5rem;
+  }
+
+  .first-card__header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+    padding-bottom: 7.9rem;
+  }
+  .first-card__img {
+    width: 4.8em;
+  }
+  .first-card__text {
+    margin-left: 0.5rem;
+  }
+  .first-card__title {
+    font-size: 4rem;
+    line-height: 120%;
+  }
+
+  .first-card__list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.2rem;
+    padding-top: 2.6rem;
+  }
+  .first-card__item {
+    width: 100%;
+    text-align: left !important;
+  }
+
+  .card__header {
+    min-height: 6.7rem;
+  }
+  .card__container {
+    padding: 2.9rem 3rem;
+  }
+  .card__content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+    margin-top: 2.6rem;
+  }
+  .card__hours {
+    font-size: 4.6rem;
+  }
+}
+@media (min-width: 900px) {
+  .cards-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 2.9rem;
+  }
+
+  .cards-wrapper {
+    width: 55rem;
+  }
+}
+@media (min-width: 1200px) {
+  .first-card {
+    align-self: stretch;
+  }
+  .cards-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cards-wrapper {
+    width: 83rem;
+  }
+
+  .card__hours {
+    font-size: 5.6rem;
+  }
+}
+@media (min-width: 1800px) {
+  html {
+    font-size: 75%;
+  }
+}
