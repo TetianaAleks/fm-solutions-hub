@@ -6,7 +6,7 @@
 
 - [Solution URL on GitHub](https://github.com/TetianaAleks/fm-solutions-hub/tree/main/25-interactive-rating-component)
 - [Live Site on GitHub Pages](https://tetianaaleks.github.io/fm-solutions-hub/25-interactive-rating-component/)
-- [Solution on Frontend Mentor]() 
+- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-h19QfYNAFa) 
 
 ## Built with
 
