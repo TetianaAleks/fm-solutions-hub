@@ -1,0 +1,148 @@
+@media (min-width: 600px) {
+  body {
+    background-color: var(--grey200);
+  }
+  .calculator {
+    align-items: center;
+    padding: 2%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .calculator__tips {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .calculator__image {
+    padding: 2rem 0 2rem;
+  }
+
+  .calculator__container {
+    padding: 3rem 3rem;
+    gap: 2rem;
+    border-radius: 2.6rem;
+
+    max-width: 50rem;
+  }
+
+  .calculator__left,
+  .calculator__right {
+    width: 100%;
+  }
+
+  button#reset {
+    margin-top: 4rem;
+  }
+
+  .calculator__value {
+    font-size: 3.6rem;
+  }
+}
+@media (min-width: 900px) {
+  .calculator {
+    min-height: 100vh;
+    justify-content: center;
+  }
+  .calculator__container {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 4rem;
+
+    max-width: 82rem;
+  }
+  .calculator__image {
+    padding: 5rem 0 4rem;
+  }
+
+  .calculator__left,
+  .calculator__right {
+    width: 48%;
+  }
+
+  .calculator__right {
+    padding: 4rem;
+  }
+
+  .calculator__value {
+    font-size: 4.2rem;
+  }
+
+  .calculator__output {
+    gap: 3.6rem;
+  }
+}
+@media (min-width: 1200px) {
+  .calculator {
+    justify-content: flex-start;
+    padding: 0;
+  }
+  .calculator__image {
+    margin-top: 11.3rem;
+    padding-bottom: 8.7rem;
+  }
+  .calculator__container {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+
+    max-width: 92rem;
+    padding: 3.2rem 3.2rem;
+    min-height: 48.1rem;
+    gap: 0rem;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .calculator__left {
+    padding-left: 1.6rem;
+    padding-right: 0rem;
+  }
+  .calculator__label:nth-child(3) {
+    margin-top: 4.3rem;
+  }
+  .calculator__tips {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .calculator__label:nth-child(5) {
+    margin-top: 4.3rem;
+  }
+  #customTip {
+    padding-left: 0.2rem;
+    padding-right: 1.4rem;
+  }
+  .calculator__left,
+  .calculator__right {
+    flex: unset;
+    width: 48%;
+  }
+  .calculator__left {
+    width: 46%;
+  }
+  .calculator__right {
+    padding: 5.2rem 3.8rem;
+
+    padding-bottom: 4rem;
+  }
+  .calculator__text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .calculator__text-light {
+    margin-top: 0;
+  }
+  .calculator__value {
+    font-size: 4.7rem;
+  }
+  .calculator__output {
+    gap: 4.2rem;
+  }
+}
+@media (min-width: 1800px) {
+  html {
+    font-size: 75%;
+  }
+  .calculator {
+    justify-content: center;
+  }
+  .calculator__image {
+    margin-top: 0;
+    padding: 5rem 0;
+  }
+}

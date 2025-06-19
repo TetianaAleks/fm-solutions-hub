@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="calculator">
+        <div class="calculator__image">
+          <img src="./images/logo.svg" alt="Logo" class="calculator__logo" />
+        </div>
+
+        <div class="calculator__container">
+          <div class="calculator__left">
+            <label class="calculator__label" for="bill">Bill</label>
+            <div class="calculator__input-icon">
+              <span class="calculator__icon"
+                ><img src="./images/icon-dollar.svg" alt="Icon dollar"
+              /></span>
+              <input type="text" id="bill" placeholder="0" min="0" />
+            </div>
+
+            <label class="calculator__label" for="customTip"
+              >Select Tip %
+            </label>
+            <div class="calculator__tips">
+              <button class="calculator__tip-btn">5%</button>
+              <button class="calculator__tip-btn">10%</button>
+              <button class="calculator__tip-btn">15%</button>
+              <button class="calculator__tip-btn">25%</button>
+              <button class="calculator__tip-btn">50%</button>
+              <input
+                type="number"
+                id="customTip"
+                placeholder="Custom"
+                min="0"
+              />
+            </div>
+
+            <label class="calculator__label" for="people"
+              >Number of People
+              <span class="calculator__error" id="peopleError"
+                >Can't be zero</span
+              ></label
+            >
+            <div class="calculator__input-icon">
+              <span class="calculator__icon"
+                ><img src="./images/icon-person.svg" alt="Icon dollar"
+              /></span>
+              <input type="number" id="people" placeholder="0" min="1" />
+            </div>
+          </div>
+          <div class="calculator__right">
+            <div class="calculator__output">
+              <div class="calculator__result">
+                <p class="calculator__text">
+                  Tip Amount <br /><span class="calculator__text-light">
+                    / person</span
+                  >
+                </p>
+                <p class="calculator__value" id="tipAmount">$0.00</p>
+              </div>
+              <div class="calculator__result">
+                <p class="calculator__text">
+                  Total <br /><span class="calculator__text-light"
+                    >/ person</span
+                  >
+                </p>
+                <p class="calculator__value" id="totalAmount">$0.00</p>
+              </div>
+            </div>
+            <button id="reset" disabled>Reset</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

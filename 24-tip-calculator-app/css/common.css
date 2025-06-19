@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
+:root {
+  --green400: hsl(172, 67%, 45%);
+
+  --green900: hsl(183, 100%, 15%);
+  --grey500: hsl(186, 14%, 43%);
+  --grey400: hsl(184, 14%, 56%);
+  --grey200: hsl(185, 41%, 84%);
+  --grey50: hsl(189, 47%, 97%);
+  --white: hsl(0, 100%, 100%);
+
+  --green: hsl(183, 79%, 24%);
+
+  --hover: hsl(185, 41%, 84%);
+
+  --red: hsl(14, 52%, 57%);
+
+  --font-family: "Space Mono", monospace;
+  --font-size: 2.4rem;
+}
