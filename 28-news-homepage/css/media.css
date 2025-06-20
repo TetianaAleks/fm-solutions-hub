@@ -1,0 +1,170 @@
+@media (min-width: 600px) {
+  .menu {
+    position: static;
+    display: flex;
+    transform: none;
+    height: auto;
+    background: none;
+    padding: 0;
+    justify-content: flex-end;
+  }
+
+  .header__menu-toggle,
+  .menu__close {
+    display: none;
+  }
+  .menu__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.1rem;
+  }
+  .menu__item + .menu__item {
+    margin-top: 0;
+  }
+  .menu__link {
+    font-size: 1.5rem;
+  }
+
+  .header,
+  .main {
+    max-width: 114.2rem;
+    margin: 0 auto;
+  }
+  .header {
+    margin-top: 1.3rem;
+  }
+  .header__logo {
+    width: 6.6rem;
+  }
+
+  .article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .article__title {
+    width: 46%;
+    font-size: 5rem;
+    margin-top: 3.4rem;
+  }
+  .article__block {
+    width: 48%;
+    padding: 1rem 0 0;
+  }
+  .article__text {
+    margin-top: 2rem;
+    line-height: 170%;
+  }
+  .btn {
+    margin-top: 3rem;
+  }
+  .categories__img {
+    max-width: 16rem;
+    width: 100%;
+  }
+  .categories__items {
+    justify-content: space-between;
+  }
+}
+@media (min-width: 900px) {
+  .article {
+    width: 64%;
+  }
+  .article__title {
+    font-size: 5rem;
+  }
+  .menu__list {
+    gap: 4.1rem;
+  }
+  .header {
+    margin-top: 6.3rem;
+  }
+  .header,
+  .main {
+    max-width: 88rem;
+    margin: 0 auto;
+  }
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 2rem;
+
+    padding: 2.8rem 1.6rem;
+  }
+
+  .list {
+    width: 33%;
+    margin-top: 0;
+    padding: 2.1rem 1rem 1rem 2rem;
+  }
+  .article__image {
+    width: 100%;
+  }
+  .list__title {
+    font-size: 3.4rem;
+  }
+
+  .categories {
+    width: 100%;
+    display: flex;
+    margin-top: 7rem;
+  }
+
+  .categories__items {
+    justify-content: center;
+    gap: 1rem;
+  }
+  .categories__item {
+    width: 32%;
+  }
+  hr {
+    margin: 2rem 0;
+  }
+  .categories__img {
+    max-width: 12rem;
+  }
+}
+@media (min-width: 1200px) {
+  .article {
+    width: 66%;
+  }
+  .header,
+  .main {
+    max-width: 114.2rem;
+    margin: 0 auto;
+  }
+  .header {
+    margin-top: 6.3rem;
+  }
+  .article__title {
+    font-size: 5.6rem;
+  }
+  .categories__items {
+    justify-content: space-between;
+  }
+  .categories__img {
+    max-width: 10rem;
+  }
+  .list {
+    width: 32%;
+    padding: 3.1rem 2rem 0rem 3rem;
+  }
+  .list__title {
+    font-size: 3.9rem;
+  }
+
+  hr {
+    margin: 3rem 0;
+  }
+  .categories__item {
+    width: 31.5%;
+  }
+}
+@media (min-width: 1800px) {
+  html {
+    font-size: 75%;
+  }
+}
