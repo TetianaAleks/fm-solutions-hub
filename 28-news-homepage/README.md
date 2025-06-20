@@ -6,7 +6,7 @@
 
 - [Solution URL on GitHub](https://github.com/TetianaAleks/fm-solutions-hub/tree/main/28-news-homepage)
 - [Live Site on GitHub Pages](https://tetianaaleks.github.io/fm-solutions-hub/28-news-homepage/)
-- [Solution on Frontend Mentor]() 
+- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/news-homepage-HEwZxPJHpZ) 
 
 ## Built with
 

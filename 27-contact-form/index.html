@@ -31,7 +31,7 @@
             name="firstName"
             required
           />
-          <span class="form__error" aria-live="polite"></span>
+          <span class="form__error" aria-live="assertive"></span>
         </div>
 
         <div class="form__group">
@@ -45,7 +45,7 @@
             name="lastName"
             required
           />
-          <span class="form__error" aria-live="polite"></span>
+          <span class="form__error" aria-live="assertive"></span>
         </div>
 
         <div class="form__group">
@@ -59,7 +59,7 @@
             name="email"
             required
           />
-          <span class="form__error" aria-live="polite"></span>
+          <span class="form__error" aria-live="assertive"></span>
         </div>
 
         <fieldset class="form__group form__group--inline">
@@ -72,7 +72,7 @@
             <input type="radio" name="queryType" value="support" required />
             <span class="form__radio-label">Support Request</span>
           </label>
-          <span class="form__error" aria-live="polite"></span>
+          <span class="form__error" aria-live="assertive"></span>
         </fieldset>
 
         <div class="form__group">
@@ -84,7 +84,7 @@
             rows="4"
             required
           ></textarea>
-          <span class="form__error" aria-live="polite"></span>
+          <span class="form__error" aria-live="assertive"></span>
         </div>
 
         <div class="form__group form__group--checkbox">
@@ -94,12 +94,12 @@
               >I consent to being contacted by the team <span>*</span></span
             >
           </label>
-          <span class="form__error" aria-live="polite"></span>
+          <span class="form__error" aria-live="assertive"></span>
         </div>
 
         <button class="form__submit" type="submit">Submit</button>
       </form>
-      <div class="form__toast" role="status" aria-live="polite" hidden>
+      <div class="form__toast" role="status" aria-live="polite" tabindex="-1" hidden>
         <span class="form__toast-title"
           ><img
             src="./assets/images/icon-success-check.svg"

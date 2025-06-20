@@ -138,15 +138,10 @@ body {
   color: var(--graish-blue);
   line-height: 170%;
 }
-hr {
-  height: 0.1rem;
-  border: none;
-  background: var(--dark-graish-blue);
-  margin: 3rem 0;
-}
-.list__item:nth-child(3),
-.list__item:nth-child(5) {
-  padding-top: 0.2rem;
+.list__item + .list__item {
+  border-top: 0.1rem solid var(--dark-graish-blue);
+  padding-top: 3.2rem;
+  margin-top: 3rem;
 }
 
 .categories {
