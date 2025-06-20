@@ -16,10 +16,8 @@ body {
 }
 
 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  display: block;
+  padding-top: 13.2rem;
 }
 
 .faq {
@@ -27,12 +25,10 @@ main {
   border-radius: 1rem;
   padding: 2.5rem 2.2rem;
   padding-bottom: 1.4rem;
+  width: 100%;
   max-width: 32.7rem;
-  margin: auto;
+  margin: 1rem auto;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05);
-  margin: 1rem 0;
-
-  min-height: 40rem;
 }
 
 .faq__title {
@@ -51,13 +47,7 @@ main {
 .faq__item {
   padding: 1rem 0.2rem;
 }
-.faq__item:nth-child(3) {
-  margin-top: 2rem;
-}
-.faq__item:nth-child(4) {
-  margin-top: 2.2rem;
-}
-.faq__item:nth-child(5) {
+.faq__item + .faq__item {
   margin-top: 2rem;
 }
 .faq__question {

@@ -10,6 +10,9 @@
   html {
     font-size: 62.5%;
   }
+  main {
+    padding-top: 15.8rem;
+  }
   body {
     background-image: url("../assets/images/background-pattern-desktop.svg");
   }
@@ -42,13 +45,7 @@
   .faq__answer {
     font-size: 1.6rem;
   }
-  .faq__item:nth-child(3) {
-    margin-top: 1.3rem;
-  }
-  .faq__item:nth-child(4) {
-    margin-top: 1.3rem;
-  }
-  .faq__item:nth-child(5) {
+  .faq__item + .faq__item {
     margin-top: 1.3rem;
   }
 }
