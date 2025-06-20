@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Contact form</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main class="form">
+      <h1 class="form__title">Contact Us</h1>
+
+      <form class="form__body" novalidate>
+        <div class="form__group">
+          <label class="form__label" for="firstName"
+            >First Name <span>*</span></label
+          >
+          <input
+            class="form__input"
+            type="text"
+            id="firstName"
+            name="firstName"
+            required
+          />
+          <span class="form__error" aria-live="polite"></span>
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="lastName"
+            >Last Name <span>*</span></label
+          >
+          <input
+            class="form__input"
+            type="text"
+            id="lastName"
+            name="lastName"
+            required
+          />
+          <span class="form__error" aria-live="polite"></span>
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="email"
+            >Email Address <span>*</span></label
+          >
+          <input
+            class="form__input"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+          <span class="form__error" aria-live="polite"></span>
+        </div>
+
+        <fieldset class="form__group form__group--inline">
+          <legend class="form__label">Query Type <span>*</span></legend>
+          <label class="form__radio">
+            <input type="radio" name="queryType" value="general" required />
+            <span class="form__radio-label">General Enquiry</span>
+          </label>
+          <label class="form__radio">
+            <input type="radio" name="queryType" value="support" required />
+            <span class="form__radio-label">Support Request</span>
+          </label>
+          <span class="form__error" aria-live="polite"></span>
+        </fieldset>
+
+        <div class="form__group">
+          <label class="form__label" for="message">Message<span>*</span></label>
+          <textarea
+            class="form__input"
+            id="message"
+            name="message"
+            rows="4"
+            required
+          ></textarea>
+          <span class="form__error" aria-live="polite"></span>
+        </div>
+
+        <div class="form__group form__group--checkbox">
+          <label class="form__checkbox">
+            <input type="checkbox" name="consent" required />
+            <span class="form__checkbox-label"
+              >I consent to being contacted by the team <span>*</span></span
+            >
+          </label>
+          <span class="form__error" aria-live="polite"></span>
+        </div>
+
+        <button class="form__submit" type="submit">Submit</button>
+      </form>
+      <div class="form__toast" role="status" aria-live="polite" hidden>
+        <span class="form__toast-title"
+          ><img
+            src="./assets/images/icon-success-check.svg"
+            alt="Icon success check"
+          /><span>Message Sent!</span></span
+        >
+        <p class="form__toast-text">
+          Thanks for completing the form. We'll be in touch soon!
+        </p>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

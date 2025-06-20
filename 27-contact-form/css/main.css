@@ -1,0 +1,228 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: var(--grey900);
+  font-weight: 400;
+  background-color: var(--green200);
+}
+
+.form {
+  background: #fff;
+  max-width: 34.3rem;
+  margin: 3.2rem auto;
+  border-radius: 1.5rem;
+  padding: 2.4rem;
+}
+
+.form__title {
+  font-size: 3rem;
+  margin-bottom: 3.3rem;
+}
+
+.form__group {
+  margin-bottom: 2.7rem;
+}
+
+.form__group--inline {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  flex-direction: column;
+
+  padding: 0;
+  border: none;
+  margin-bottom: 1.8rem;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.form__label span {
+  color: var(--green600);
+  margin-left: 0.6rem;
+}
+
+.form__input {
+  width: 100%;
+  padding: 1.6rem 1rem;
+  border: 0.18rem solid var(--grey200);
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  color: var(--grey900);
+
+  outline: none;
+  cursor: pointer;
+}
+
+.form__input:focus,
+.form__input:hover {
+  border-color: var(--green600);
+}
+
+.form__radio {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  border: 0.1rem solid var(--grey200);
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.6rem;
+  margin-top: 1rem;
+
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.2rem solid var(--grey200);
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+
+  display: grid;
+  place-content: center;
+}
+input[type="radio"]::before {
+  content: "";
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--green600);
+}
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+input[type="radio"]:checked {
+  border-color: var(--green600);
+}
+.form__radio--selected {
+  border-color: var(--green600);
+  background-color: var(--green200);
+}
+
+textarea {
+  min-height: 24rem;
+  color: var(--grey900);
+}
+
+.form__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 2.8rem;
+  margin-top: 3.6rem;
+  font-size: 1.66rem;
+}
+
+.form__checkbox-label {
+  line-height: 1.4;
+}
+.form__checkbox-label span {
+  color: var(--green600);
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  margin: 0;
+
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.1em solid var(--grey200);
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.5em;
+  height: 0.5em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em white;
+
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+input[type="checkbox"]:checked {
+  border-color: var(--green600);
+  background-color: var(--green600);
+}
+
+.form__error {
+  color: var(--red);
+  font-size: 1.66rem;
+  margin-top: 1rem;
+  margin-bottom: 1.4rem;
+  display: block;
+}
+
+.form__input--invalid {
+  border: 0.1rem solid var(--red);
+}
+
+.form__submit {
+  background-color: var(--green600);
+  color: #fff;
+  padding: 1.8rem 2rem;
+  border: none;
+  font-weight: 700;
+  font-size: 1.8rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  width: 100%;
+
+  margin-top: 2.2rem;
+}
+
+.form__submit:hover,
+.form__submit:focus {
+  background-color: hsl(169, 82%, 12%);
+}
+
+.form__toast {
+  background: var(--grey900);
+  color: white;
+  padding: 2.6rem 2.6rem;
+  border-radius: 1.2rem;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  font-size: 1.8rem;
+
+  max-width: 35rem;
+  width: 100%;
+}
+.form__toast-title {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+}
+.form__toast-text {
+  font-size: 1.6rem;
+  margin-top: 1.6rem;
+  color: var(--green200);
+}

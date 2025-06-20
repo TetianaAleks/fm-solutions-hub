@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/static/Karla-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/static/Karla-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --green200: hsl(148, 38%, 91%);
+  --green600: hsl(169, 82%, 27%);
+  --red: hsl(0, 66%, 54%);
+
+  --grey200: hsl(186, 15%, 59%);
+  --grey900: hsl(187, 24%, 22%);
+
+  --font-family: "Karla", sans-serif;
+  --font-size: 1.6rem;
+}
