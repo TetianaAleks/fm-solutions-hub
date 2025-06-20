@@ -29,6 +29,7 @@ body {
   width: 100%;
   padding: 4rem;
   transition: 0.3s ease-in-out;
+  margin: 3rem 0;
 }
 
 .card__image {

@@ -2,6 +2,7 @@
   .card {
     max-width: 35rem;
     min-height: 59.6rem;
+    margin: 3rem 0;
   }
   .card__title {
     margin-top: 2.6rem;
