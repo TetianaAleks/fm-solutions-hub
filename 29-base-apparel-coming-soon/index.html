@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid min-vh-100 p-0 d-flex flex-column flex-md-row">
+      <div class="content-background">
+        <div class="header-padding">
+          <img
+            class="img-fluid header-image"
+            src="./images/logo.svg"
+            alt="Base Apparel"
+          />
+        </div>
+        <div class="d-md-none">
+          <img
+            class="img-fluid object-fit-cover w-100"
+            src="./images/hero-mobile.jpg"
+            alt="Model"
+          />
+        </div>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center text-center justify-content-md-start align-items-md-start text-md-start px-4 px-md-5 text-dark content-style"
+        >
+          <h1 class="display-2 text-uppercase h1-style">
+            <span class="text-muted">We're</span><br /><strong
+              >Coming Soon</strong
+            >
+          </h1>
+          <p class="text-muted p-desc">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+          <form id="emailForm" class="w-100" novalidate>
+            <div class="position-relative">
+              <input
+                type="email"
+                id="emailInput"
+                placeholder="Email Address"
+                aria-describedby="emailError"
+                class="form-control rounded-pill px-4"
+              />
+              <div
+                id="warningLabel"
+                class="position-absolute h-100 warning-label"
+              >
+                <img
+                  class="img-fluid"
+                  src="./images/icon-error.svg"
+                  alt="Ion error"
+                />
+              </div>
+              <button
+                type="submit"
+                class="btn btn-gradient rounded-pill px-4 position-absolute top-0 end-0 h-100"
+              >
+                <img
+                  class="img-fluid"
+                  src="./images/icon-arrow.svg"
+                  alt="Icon arrow"
+                />
+              </button>
+            </div>
+            <div id="emailError" class="d-none">
+              Please provide a valid email
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="d-none d-md-block background-desktop">
+        <img
+          class="w-100 h-100 object-fit-cover"
+          src="./images/hero-desktop.jpg"
+          alt="Model"
+        />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
