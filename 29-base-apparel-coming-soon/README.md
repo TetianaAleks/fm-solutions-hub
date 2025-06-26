@@ -6,7 +6,7 @@
 
 - [Solution URL on GitHub](https://github.com/TetianaAleks/fm-solutions-hub/tree/main/29-base-apparel-coming-soon)
 - [Live Site on GitHub Pages](https://tetianaaleks.github.io/fm-solutions-hub/29-base-apparel-coming-soon/)
-- [Solution on Frontend Mentor]() 
+- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-using-bootstrap-L9p-08Xqjn) 
 
 ## Built with
 
